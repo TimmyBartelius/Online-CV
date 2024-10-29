@@ -10,6 +10,6 @@ header{
 	flex-direction: column;
 	justify-content:space-between;
 }
-.body{
+body{
 	margin: 0;
 }
