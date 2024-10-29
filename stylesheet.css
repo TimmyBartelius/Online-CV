@@ -2,16 +2,26 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: rgb(180, 235, 248);
+	background-color: rgb(8, 8, 8);
 	border-style: solid;
-	padding: 100px;
+	border-color: brown;
+	color: white;
+}
+.header-bild{
+	border-radius: 800px;
+	width: 200px;
+	height: 200px;
 }
 .header-menu{
 	display: flex;
 	flex-direction: column;
 	justify-content:space-between;
-	padding: 10px;
+	padding: 60px;
 }
 body{
 	margin: 0;
+}
+.answers{
+	border: dotted purple 5px;
+	width: 300px;
 }
