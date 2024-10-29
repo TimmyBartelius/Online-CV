@@ -23,5 +23,13 @@ body{
 }
 .answers{
 	border: dotted purple 5px;
-	width: 300px;
+	width: 180px;
+	padding: 10px;
+}
+.lists{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	margin: 20px;
 }
