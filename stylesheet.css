@@ -44,12 +44,18 @@ body{
 	color: orange;
 }
 .lists{
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
 	justify-content: space-between;
-	align-items: center;
-	padding: 30px;
 	margin: 20px;
 	border: solid brown 1rem;
 	background-color: orange;
+}
+.lists img{
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	width: 12rem;
+	border-radius: 100rem;
+	padding: 1rem;
 }
