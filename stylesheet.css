@@ -25,7 +25,6 @@ header{
 body{
 	margin: 0;
 	background-color: brown;
-	border: solid brown 30px;
 }
 .undertitle{
 	display: flex;
@@ -65,4 +64,19 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	background-color: orange;
+}
+ul{
+	list-style-type: none;
+	margin:0;
+}
+footer{
+	display: grid;
+	grid-template-rows: repeat(2,1fr);
+	background-color: black;
+	color: white;
+	margin-top: 1rem;
+	padding: 10rem;
+}
+.links{
+	float: right;
 }
