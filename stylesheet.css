@@ -4,13 +4,13 @@ header{
 	justify-content: space-around;
 	background-color: rgb(180, 235, 248);
 	border-style: solid;
-	margin: 100px;
+	padding: 100px;
 }
 .header-menu{
 	display: flex;
 	flex-direction: column;
 	justify-content:space-between;
-	margin: 10px;
+	padding: 10px;
 }
 body{
 	margin: 0;
