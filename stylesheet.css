@@ -39,7 +39,6 @@ body{
 	padding: 10px;
 	background-color: rgb(0, 136, 255);
 	color: orange;
-	position: relative;
 }
 .lists{
 	display: flex;
