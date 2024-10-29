@@ -5,6 +5,7 @@ header{
 	background-color: rgb(8, 8, 8);
 	border-style: solid;
 	border-color: brown;
+	border-width: 5px;
 	color: white;
 }
 .header-bild{
@@ -20,11 +21,24 @@ header{
 }
 body{
 	margin: 0;
+	background-color: brown;
+	border: solid brown 30px;
+}
+.undertitle{
+	display: flex;
+	justify-content: center;
+	background-color: orange;
+	margin: 3rem;
+	padding: 3rem;
+	border: solid brown 1rem;
+
 }
 .answers{
-	border: dotted purple 5px;
+	border: solid black 5px;
 	width: 180px;
 	padding: 10px;
+	background-color: rgb(0, 136, 255);
+	color: orange;
 }
 .lists{
 	display: flex;
@@ -32,4 +46,6 @@ body{
 	align-items: center;
 	padding: 30px;
 	margin: 20px;
+	border: solid brown 1rem;
+	background-color: orange;
 }
