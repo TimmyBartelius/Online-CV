@@ -78,5 +78,7 @@ footer{
 	padding: 10rem;
 }
 .links{
-	float: right;
+	display: flex;
+	flex-direction: row;
+
 }
